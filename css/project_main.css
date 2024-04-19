@@ -1,0 +1,107 @@
+@charset "UTF-8";
+ /*reset*/
+      * {margin:0; box-sizing:border-box;}
+      ul, ol, li {list-style:none; margin:0; padding:0;}
+      a {text-decoration: none;}
+      /*main*/ 
+      header {width:100%; height:120px; margin:0 auto; background-color:#f03746;}
+
+      #head {width:1185px; height:100%; margin:0 auto;}
+
+      #head > .logo {float:left; margin:20px 0 0 20px;}
+
+      #head > .nav {float:left; margin:50px 0 0 50px;}
+
+      #head > .nav > ul {font-size:18px; margin:0 20px;}
+
+      #head > .nav > ul > li {float:left; margin:0 22px;}
+
+      #head > .nav > ul > li > a {text-decoration:none; color:white;}
+
+      #head > .nav > ul > li > a:hover {color:lightgray; opacity:0.8;}
+
+      #head > .login {float:right; margin:50px 50px 0 0px;}
+
+      #head > .login > ul > li {float:left; margin:0 15px;}
+      
+            
+      .subList {position:relative;}
+      
+      .subList > div {position:absolute; width:200px; height:100px; text-align: center; display:none; top:15px; background-color: #f4f4f4; margin:10px 0px 0 -85px;}
+      
+      .subList > div > a {display:block; background:rgba(244,244,244,0.5); font-size: 11px; text-decoration:none;}
+      
+      .subList > div > a:hover {color:#f4f4f4; background:#14cdbc; text-decoration:none;}
+      
+      .subList > ul > li{width: 100%; height: 70px; padding: 10px; text-decoration:none;}
+      
+      #slider {width:1920px; height:694px; margin:0 auto;position: relative; overflow: hidden; background-color:rgb(128, 255, 255);}
+
+      #slider > .mainbox {width:7680px; height:694px; margin:0 auto;}
+      
+      #slider > .mainbox > li {width: 1920px; height: 694px; float: left; }
+
+      #slider > .mainbox > li > img {width:100%; height:100%;}
+
+      section {width:100%; height:1350px; margin:0 auto; background-color:#f4f4f4;}
+
+      section > h3 {text-align:center; padding:20px 0px; font-size:30px; 
+
+        text-transform:uppercase;}
+
+      section > p {font-size:20px; text-align:center;} 
+
+      article {width:1200px; height:1000px; margin:0 auto;}
+
+      .box {width:250px; height:350px;  margin:20px 0 0 50px; float:left; box-shadow:4px 4px 4px #ddd; border:1px solid #ddd; padding:10px; background-color:white;}
+      
+      .box:hover{opacity:0.6;}
+
+      .box:nth-of-type(1) {margin:20px 20px 0 190px;}
+
+      .box:nth-of-type(4) {margin:20px 20px 0 190px;}
+      
+      .box:nth-of-type(7) {margin:20px 20px 0 190px;}
+
+      .box >div> a > img {width:100%; height:220px;}
+
+      .box > h5 > a  {font-size:13px; color:#000;text-decoration:none;}
+
+      .box > span > a{font-size:11px; color:#666;text-decoration:none;}
+
+      .box > p  > a {font-size:11px; text-decoration:none; color:black;}
+              
+       
+      footer {width:100%; height:250px; margin:0 auto; background-color:#f03746;}
+      
+      .inner{width:1285px; height:250px; margin:0 auto;}
+      
+     .inner >.foot_left {
+		 color:white;
+		 width: 150px;
+		  float: left;
+		  margin: 30px 0 0 60px;
+		  text-decoration: none;
+	  }
+	  	  
+	  .inner > foot_center {margin:0 auto; color:white; text-decoration: none; width: 250px;}
+	  
+	 .inner > .foot_right {
+		 color:white;
+		  float: right;
+		  margin: 30px 0px 0 0px;		  
+	  }
+
+	  
+
+
+
+
+
+
+
+
+
+
+	  
+	  
